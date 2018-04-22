@@ -1,10 +1,3 @@
-var app = new Vue({
-  el: '#info',
-  data: {
-    title: 'Hello Vue!'
-  }
-})
-
 var list;
 $.ajax({
   async: false,
