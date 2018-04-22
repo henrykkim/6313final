@@ -41,7 +41,7 @@ function initMap() {
 
     google.maps.event.addListener(marker, 'click', (function (marker, i) {
       return function () {
-        infowindow.open(map, marker);
+        alert(list[i].name)
       };
     })(marker, i));
   };
