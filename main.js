@@ -1,3 +1,10 @@
+var app = new Vue({
+  el: '#app',
+  data: {
+    title: 'Hello Vue!'
+  }
+})
+
 var list;
 $.ajax({
   async: false,
@@ -5,12 +12,10 @@ $.ajax({
   url: "https://rawgit.com/henrykkim/6313final/master/list.json",
   type: "GET",
   success: function (data) {
-    console.log(data);
     list = data["restaurant"];
     return list;
   }
 });
-console.log(list);
 
 function initMap() {
   var uluru = {
