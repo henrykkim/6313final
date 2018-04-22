@@ -5,7 +5,8 @@
     "location": {
       "lat": 33.963723,
       "lng": -84.127196
-    }
+    },
+    "info": "This restaurant is something"
   }, {
     "name": "Han Shin Pocha USA",
     "filter": ["Casual Food", "Small Bites", "Karaoke"],
