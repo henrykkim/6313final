@@ -1,7 +1,10 @@
 {
-    "restaurant" : [
-        {"name": "9292 Korean BBQ",
+    "restaurant": [{
+        "name": "9292 Korean BBQ",
         "filter": "Korean BBQ",
-        "location": {"lat": 33.963723, "lng": -84.127196}}
-    ]
+        "location": {
+            "lat": 33.963723,
+            "lng": -84.127196
+        }
+    }]
 }
