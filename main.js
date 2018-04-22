@@ -34,7 +34,7 @@ function initMap() {
 
     google.maps.event.addListener(marker, 'click', (function (marker, i) {
       return function () {
-        alert(list[i].name)
+        document.getElementById("content").innerHTML = list[i].name;
       };
     })(marker, i));
   };
