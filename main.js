@@ -17,6 +17,10 @@ $.ajax({
   }
 });
 
+function addContent() {  
+  document.getElementById("content").innerHTML = "test";
+};
+
 function initMap() {
   var uluru = {
     lat: 33.945208,
