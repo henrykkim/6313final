@@ -28,5 +28,12 @@
       "lat": 33.956593,
       "lng": -84.139824
     }
+  }, {
+    "name": "Sun & Moon Cafe",
+    "filter": ["Small Bites", "Pub", "Spicy"],
+    "location": {
+      "lat": 33.956412,
+      "lng": -84.131345
+    }
   }]
 }
