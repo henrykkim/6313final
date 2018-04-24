@@ -49,5 +49,26 @@
       "lat": 33.911955,
       "lng": -84.262035
     }
+  }, {
+    "name": "Miss Gogi",
+    "filter": ["Korean BBQ", "All You Can Eat", "Pork Belly"],
+    "location": {
+      "lat": 33.909155,
+      "lng": -84.287914
+    }
+  }, {
+    "name": "Hae Woon Dae BBQ",
+    "filter": ["Korean BBQ", "Short Ribs", "Pork Belly"],
+    "location": {
+      "lat": 33.908483,
+      "lng": -84.265849
+    }
+  }, {
+    "name": "Hello Chicken",
+    "filter": ["Korean Fried Chicken", "Short Ribs", "Pork Belly"],
+    "location": {
+      "lat": 33.908483,
+      "lng": -84.265849
+    }
   }]
 }
