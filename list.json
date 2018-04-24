@@ -35,5 +35,19 @@
       "lat": 33.956412,
       "lng": -84.131345
     }
+  }, {
+    "name": "Woo Nam Jeong Stone Bowl House",
+    "filter": ["Seafood Pancake", "Bibimbap", "Kalbi"],
+    "location": {
+      "lat": 33.912788,
+      "lng": -84.261863
+    }
+  }, {
+    "name": "Yet Tuh",
+    "filter": ["Traditional Food", "Bibimbap", "Kimchi Stew"],
+    "location": {
+      "lat": 33.911955,
+      "lng": -84.262035
+    }
   }]
 }
