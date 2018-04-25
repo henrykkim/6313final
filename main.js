@@ -1,3 +1,4 @@
+// Getting JSON from Github
 var list;
 $.ajax({
   async: false,
@@ -9,6 +10,8 @@ $.ajax({
     return list;
   }
 });
+
+
 
 function addContent() {  
   document.getElementById("content").innerHTML = "test";
