@@ -12,10 +12,17 @@ $.ajax({
 });
 
 
-
-function addContent() {  
-  document.getElementById("content").innerHTML = "test";
-};
+// Axios
+axios.get("https://api.yelp.com/v3/businesses/WavvLdfdP6g8aZTtbBQHTw", { 
+  'headers': { 
+    'Authorization': "owtqvjlXtjhNUNdWS6G5KlF_lY2hUU4g-icS04trJ_ky8R0mHRRgZ1At9A0Tb2eTMn47p83jcHYc4v36uK7r1hKr7zyL7C1aLzg6G9JJVkNX02Ub5jPOnjrmaPrfWnYx" 
+  }})
+  .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
 
 function initMap() {
   var uluru = {
@@ -37,7 +44,7 @@ function initMap() {
 
     google.maps.event.addListener(marker, 'click', (function (marker, i) {
       return function () {
-        document.getElementById("content").innerHTML = list[i].name;
+        document.getElementById("writing").innerHTML = list[i].name;
       };
     })(marker, i));
   };

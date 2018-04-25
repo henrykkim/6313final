@@ -17,12 +17,8 @@ body {
   /* adjust top margin to your header height */
 }
 
-.title {
+#writing {
   padding-top: 60px;
-  
-}
-
-.writing {
   padding-left: 20px;
   padding-right: 20px;
 }
