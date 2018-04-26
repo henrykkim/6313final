@@ -11,17 +11,6 @@ $.ajax({
   }
 });
 
-$.ajax({
-  url:'https://api.foursquare.com/v2/venues/5abfbad2037be13328154c46?&client_id=IC54QTKTLMW1V2REOOVKJFWHRB2HK4TMB04TWNDOLTY1XB23&client_secret=W1EPN0UKULP51MG1NU0SNDBF45YMJ1KWTDLUTVOW42SIFZ2E&v=20180425',
-  dataType: 'json',
-  async: true,
-
-  success: function (data) {
-      var result = data.response.venue;
-      console.log(result);
-  }
-});
-
 function initMap() {
   var uluru = {
     lat: 33.945208,
@@ -43,23 +32,23 @@ function initMap() {
     google.maps.event.addListener(marker, 'click', (function (marker, i) {
       return function () {
 
-        document.getElementById("headerImage").innerHTML = '<img src='+'"list[i].headerImage"'+'>';
-        document.getElementById("writing").innerHTML = 
-        "<h1>"+list[i].name+"</h1>"+
-        '<div class="row">'+
-          '<div class="col-6 pt-3">'+
-            "<h3>"+"Address"+"</h3>"+
-            "<p>"+list[i].address[0]+'<br>'+list[i].address[1]+"</p>"+
-          '</div>'+
-          '<div class="col-6 pt-3">'+
-            '<h3>Phone</h3>'+
-            '<p>'+list[i].phone+'</p>'+
-          '</div>'+
-          '<div class="col-6 pt-3">'+
-            '<h3>Price</h3>'+
-            '<p>'+list[i].price+'</p>'+
-          '</div>'+
-        '</div>';
+        document.getElementById("headerImage").innerHTML = '<img src=' + 'list[i].headerImage' + '>';
+        document.getElementById("writing").innerHTML =
+          "<h1>" + list[i].name + "</h1>" +
+          '<div class="row">' +
+          '<div class="col-6 pt-3">' +
+          "<h3>" + "Address" + "</h3>" +
+          "<p>" + list[i].address[0] + '<br>' + list[i].address[1] + "</p>" +
+          '</div>' +
+          '<div class="col-6 pt-3">' +
+          '<h3>Phone</h3>' +
+          '<p>' + list[i].phone + '</p>' +
+          '</div>' +
+          '<div class="col-6 pt-3">' +
+          '<h3>Price</h3>' +
+          '<p>' + list[i].price + '</p>' +
+          '</div>' +
+          '</div>';
       };
     })(marker, i));
   };
