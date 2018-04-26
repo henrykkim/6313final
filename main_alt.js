@@ -11,15 +11,14 @@ $.ajax({
   }
 });
 
-var y_id = "WavvLdfdP6g8aZTtbBQHTw";
 $.ajax({
+  url:'https://api.foursquare.com/v2/venues/5abfbad2037be13328154c46?&client_id=IC54QTKTLMW1V2REOOVKJFWHRB2HK4TMB04TWNDOLTY1XB23&client_secret=W1EPN0UKULP51MG1NU0SNDBF45YMJ1KWTDLUTVOW42SIFZ2E&v=20180425',
+  dataType: 'json',
   async: true,
-  crossDomain: true,
-  url: "https://api.yelp.com/v3/businesses/" + y_id,
-  method: "GET",
-  headers: { "Authorization": "Bearer owtqvjlXtjhNUNdWS6G5KlF_lY2hUU4g-icS04trJ_ky8R0mHRRgZ1At9A0Tb2eTMn47p83jcHYc4v36uK7r1hKr7zyL7C1aLzg6G9JJVkNX02Ub5jPOnjrmaPrfWnYx" },
-  success: function (result) {
-    console.log(result);
+
+  success: function (data) {
+      var result = data.response.venue;
+      console.log(result);
   }
 });
 
@@ -43,7 +42,11 @@ function initMap() {
 
     google.maps.event.addListener(marker, 'click', (function (marker, i) {
       return function () {
-        document.getElementById("writing").innerHTML = list[i].name;
+        //var address = list[i].address.toString();
+        document.getElementById("writing").innerHTML = 
+        "<h1>"+list[i].name+"</h1>"+
+        '<div class="row">'+'<div class="col-2 pt-3">'+"<h2>"+"Address"+"</h2>"+"<p>"+list[i].address[0]+"</p>"+"<p>"+list[i].address[1]+"</p>"+'</div>'+
+        '</div>';
       };
     })(marker, i));
   };

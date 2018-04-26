@@ -6,6 +6,9 @@
       "lat": 33.963723,
       "lng": -84.127196
     },
+    "price": "$$",
+    "address": ["3360 Satellite Blvd", "Duluth, GA 30096"],
+    "phone": "(470) 227-1431",
     "info": "This restaurant is something"
   }, {
     "name": "Han Shin Pocha USA",
@@ -13,62 +16,87 @@
     "location": {
       "lat": 33.959576,
       "lng": -84.130336
-    }
+    }, 
+    "price": "$",
+    "address": ["3515 Mall Blvd", "Duluth, GA 30096"],
+    "phone": "(770) 363-2121"
   }, {
     "name": "Jang Su Jang",
     "filter": ["Traditional Food", "Soup", "Bibimbap"],
     "location": {
       "lat": 33.957163,
       "lng": -84.138866
-    }
+    },
+    "price": "$",
+    "address": ["3645 Satellite Blvd", "Duluth, GA 30096"],
+    "phone": "(678) 475-9170"
   }, {
     "name": "Jok Ga A Dong Chim",
     "filter": ["Pork", "Jokbal", "Bossam"],
     "location": {
       "lat": 33.956593,
       "lng": -84.139824
-    }
+    },
+    "price": "$$",
+    "address": ["3751 Satellite Blvd #600", "Duluth, GA 30096"],
+    "phone": "(470) 299-6150"
   }, {
     "name": "Sun & Moon Cafe",
     "filter": ["Small Bites", "Pub", "Spicy"],
     "location": {
       "lat": 33.956412,
       "lng": -84.131345
-    }
+    },
+    "price": "$$",
+    "address": ["3555 Gwinnett Pl Dr NW #101", "Duluth, GA 30096"],
+    "phone": "(678) 417-6755"
   }, {
     "name": "Woo Nam Jeong Stone Bowl House",
     "filter": ["Seafood Pancake", "Bibimbap", "Kalbi"],
     "location": {
       "lat": 33.912788,
       "lng": -84.261863
-    }
+    },
+    "price": "$",
+    "address": ["5953 Buford Highway Northeast", "Atlanta, GA 30340"]
   }, {
     "name": "Yet Tuh",
     "filter": ["Traditional Food", "Bibimbap", "Kimchi Stew"],
     "location": {
       "lat": 33.911955,
       "lng": -84.262035
-    }
+    },
+    "price": "$$",
+    "address": ["3042 Oakcliff Rd", "Doraville, GA 30340"],
+    "phone": "(770) 454-9292"
   }, {
     "name": "Miss Gogi",
     "filter": ["Korean BBQ", "All You Can Eat", "Pork Belly"],
     "location": {
       "lat": 33.909155,
       "lng": -84.287914
-    }
+    },
+    "address": ["6035 Peachtree Rd Ste C115", "Atlanta, GA 30360"],
+    "phone": "(770) 220-3003"
   }, {
     "name": "Hae Woon Dae BBQ",
     "filter": ["Korean BBQ", "Short Ribs", "Pork Belly"],
     "location": {
       "lat": 33.908483,
       "lng": -84.265849
-    }
+    },
+    "price": "$$",
+    "address": ["5805 Buford Hwy NE", "Doraville, GA 30340"],
+    "phone": "(770) 458-6999"
   }, {
     "name": "Hello Chicken",
     "filter": ["Korean Fried Chicken", "Short Ribs", "Pork Belly"],
     "location": {
       "lat": 33.908483,
       "lng": -84.265849
-    }
+    },
+    "price": "$$",
+    "address": ["5295 Buford Hwy NE", "Atlanta, GA 30340"],
+    "phone": "(770) 797-5153"
   }]
 }
