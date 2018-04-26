@@ -32,7 +32,7 @@ function initMap() {
     google.maps.event.addListener(marker, 'click', (function (marker, i) {
       return function () {
 
-        document.getElementById("headerImage").innerHTML = '<img src=' + list[i].headerImage + ' class="img-fluid">';
+        document.getElementById("headerImage").innerHTML = '<img src=' + list[i].headerImage + ' class="img-fluid centered-and-cropped">';
         document.getElementById("writing").innerHTML =
           "<h1>" + list[i].name + "</h1>" +
           '<div class="row">' +
