@@ -45,7 +45,19 @@ function initMap() {
         //var address = list[i].address.toString();
         document.getElementById("writing").innerHTML = 
         "<h1>"+list[i].name+"</h1>"+
-        '<div class="row">'+'<div class="col-2 pt-3">'+"<h2>"+"Address"+"</h2>"+"<p>"+list[i].address[0]+"</p>"+"<p>"+list[i].address[1]+"</p>"+'</div>'+
+        '<div class="row">'+
+          '<div class="col-6 pt-3">'+
+            "<h3>"+"Address"+"</h3>"+
+            "<p>"+list[i].address[0]+'<br>'+list[i].address[1]+"</p>"+
+          '</div>'+
+          '<div class="col-6 pt-3">'+
+            '<h3>Phone</h3>'+
+            '<p>'+list[i].phone+'</p>'+
+          '</div>'+
+          '<div class="col-6 pt-3">'+
+            '<h3>Price</h3>'+
+            '<p>'+list[i].price+'</p>'+
+          '</div>'+
         '</div>';
       };
     })(marker, i));
