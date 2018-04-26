@@ -25,6 +25,6 @@ body {
 
 .centered-and-cropped { 
   width: 100vh;
-  height: 250px;
+  height: 300px;
   object-fit: fill;
 }
