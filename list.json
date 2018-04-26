@@ -25,7 +25,7 @@
     }, 
     "price": "$",
     "address": ["3515 Mall Blvd", "Duluth, GA 30096"],
-    "gmap": "https://goo.gl/maps/mJuHL643FDk",
+    "gmap": "https://goo.gl/maps/R7QxDUTA1TC2",
     "phone": "(770) 363-2121",
     "headerImage": "image/hanshin.jpg",
     "info": {
@@ -42,7 +42,7 @@
     },
     "price": "$",
     "address": ["3645 Satellite Blvd", "Duluth, GA 30096"],
-    "gmap": "https://goo.gl/maps/mJuHL643FDk",
+    "gmap": "https://goo.gl/maps/gwMu4ByYPoN2",
     "phone": "(678) 475-9170",
     "headerImage": "image/jangsujang.jpg",
     "info": {
@@ -59,7 +59,7 @@
     },
     "price": "$$",
     "address": ["3751 Satellite Blvd #600", "Duluth, GA 30096"],
-    "gmap": "https://goo.gl/maps/mJuHL643FDk",
+    "gmap": "https://goo.gl/maps/4B55PuMimL32",
     "phone": "(470) 299-6150",
     "headerImage": "image/jok.jpg",
     "info": {
@@ -76,7 +76,7 @@
     },
     "price": "$$",
     "address": ["3555 Gwinnett Pl Dr NW #101", "Duluth, GA 30096"],
-    "gmap": "https://goo.gl/maps/mJuHL643FDk",
+    "gmap": "https://goo.gl/maps/Z1Kd8B74qrm",
     "phone": "(678) 417-6755",
     "headerImage": "image/sun.jpg",
     "info": {
@@ -93,7 +93,7 @@
     },
     "price": "$",
     "address": ["5953 Buford Highway Northeast", "Atlanta, GA 30340"],
-    "gmap": "https://goo.gl/maps/mJuHL643FDk",
+    "gmap": "https://goo.gl/maps/H2pXxeUebYq",
     "phone": "(678) 530-0844",
     "headerImage": "image/woo.jpg",
     "info": {
@@ -110,7 +110,7 @@
     },
     "price": "$$",
     "address": ["3042 Oakcliff Rd", "Doraville, GA 30340"],
-    "gmap": "https://goo.gl/maps/mJuHL643FDk",
+    "gmap": "https://goo.gl/maps/vi7E5NEi6Dt",
     "phone": "(770) 454-9292",
     "headerImage": "image/yet.jpg",
     "info": {
@@ -127,7 +127,7 @@
     },
     "price": "$$",
     "address": ["6035 Peachtree Rd Ste C115", "Atlanta, GA 30360"],
-    "gmap": "https://goo.gl/maps/mJuHL643FDk",
+    "gmap": "https://goo.gl/maps/Cr4ArBbLCPC2",
     "phone": "(770) 220-3003",
     "headerImage": "image/miss.jpg",
     "info": {
@@ -144,7 +144,7 @@
     },
     "price": "$$",
     "address": ["5805 Buford Hwy NE", "Doraville, GA 30340"],
-    "gmap": "https://goo.gl/maps/mJuHL643FDk",
+    "gmap": "https://goo.gl/maps/AWhJK2oH5JE2",
     "phone": "(770) 458-6999",
     "headerImage": "image/haewoondae.jpg",
     "info": {
@@ -161,7 +161,7 @@
     },
     "price": "$$",
     "address": ["5295 Buford Hwy NE", "Atlanta, GA 30340"],
-    "gmap": "https://goo.gl/maps/mJuHL643FDk",
+    "gmap": "https://goo.gl/maps/Dwru24oEcmx",
     "phone": "(770) 797-5153",
     "headerImage": "image/hellochick.jpg",
     "info": {

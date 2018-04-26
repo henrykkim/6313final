@@ -38,7 +38,7 @@ function initMap() {
           '<div class="row">' +
             '<div class="col-6 pt-3">' +
               "<h3>" + "Address" + "</h3>" +
-              "<p>" + '<a href=>' + list[i].address[0] + '<br>' + list[i].address[1] + '</a>'+"</p>" +
+              "<p>" + '<a href='+list[i].gmap+'>' + list[i].address[0] + '<br>' + list[i].address[1] + '</a>'+"</p>" +
             '</div>' +
             '<div class="col-6 pt-3">' +
               '<h3>Phone</h3>' +
