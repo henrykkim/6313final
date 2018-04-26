@@ -36,18 +36,27 @@ function initMap() {
         document.getElementById("writing").innerHTML =
           "<h1>" + list[i].name + "</h1>" +
           '<div class="row">' +
-          '<div class="col-6 pt-3">' +
-          "<h3>" + "Address" + "</h3>" +
-          "<p>" + list[i].address[0] + '<br>' + list[i].address[1] + "</p>" +
-          '</div>' +
-          '<div class="col-6 pt-3">' +
-          '<h3>Phone</h3>' +
-          '<p>' + list[i].phone + '</p>' +
-          '</div>' +
-          '<div class="col-6 pt-3">' +
-          '<h3>Price</h3>' +
-          '<p>' + list[i].price + '</p>' +
-          '</div>' +
+            '<div class="col-6 pt-3">' +
+              "<h3>" + "Address" + "</h3>" +
+              "<p>" + list[i].address[0] + '<br>' + list[i].address[1] + "</p>" +
+            '</div>' +
+            '<div class="col-6 pt-3">' +
+              '<h3>Phone</h3>' +
+              '<p>' + list[i].phone + '</p>' +
+            '</div>' +
+            '<div class="col-6 pt-3">' +
+              '<h3>Price</h3>' +
+              '<p>' + list[i].price + '</p>' +
+            '</div>' +
+          '</div>'+
+          '<div class="row">' +
+            '<div class="col pt-3">' +
+            "<h3>" + "What I love about this place" + "</h3>" +
+            '<p>' + list[i].info.why + '</p>' +
+            "<h3>" + "Food to Try" + "</h3>" +
+            '<img src=' + list[i].info.dish + 'class="img-fluid">'+
+            '<p>' + list[i].info.dish + '</p>' +
+            '</div>'+
           '</div>';
       };
     })(marker, i));
