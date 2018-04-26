@@ -42,7 +42,8 @@ function initMap() {
 
     google.maps.event.addListener(marker, 'click', (function (marker, i) {
       return function () {
-        //var address = list[i].address.toString();
+
+        document.getElementById("headerImage").innerHTML = '<img src='+'"list[i].headerImage"'+'>';
         document.getElementById("writing").innerHTML = 
         "<h1>"+list[i].name+"</h1>"+
         '<div class="row">'+
