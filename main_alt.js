@@ -54,7 +54,7 @@ function initMap() {
             "<h3>" + "What I love about this place" + "</h3>" +
             '<p>' + list[i].info.why + '</p>' +
             "<h3>" + "Food to Try" + "</h3>" +
-            '<img src=' + list[i].info.dish + 'class="img-fluid">'+
+            '<img src=' + list[i].info.dishImage + 'class="img-fluid">'+
             '<p>' + list[i].info.dish + '</p>' +
             '</div>'+
           '</div>';
