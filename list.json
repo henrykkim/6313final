@@ -25,7 +25,12 @@
     "price": "$",
     "address": ["3515 Mall Blvd", "Duluth, GA 30096"],
     "phone": "(770) 363-2121",
-    "headerImage": "image/hanshin.jpg"
+    "headerImage": "image/hanshin.jpg",
+    "info": {
+      "why" : "I love this restaurant because of this reason",
+      "dish": "you should definitely try this",
+      "dishImage": "image/galbi.jpg" 
+    }
   }, {
     "name": "Jang Su Jang",
     "filter": ["Traditional Food", "Soup", "Bibimbap"],
@@ -36,7 +41,12 @@
     "price": "$",
     "address": ["3645 Satellite Blvd", "Duluth, GA 30096"],
     "phone": "(678) 475-9170",
-    "headerImage": "image/jangsujang.jpg"
+    "headerImage": "image/jangsujang.jpg",
+    "info": {
+      "why" : "I love this restaurant because of this reason",
+      "dish": "you should definitely try this",
+      "dishImage": "image/galbi.jpg" 
+    }
   }, {
     "name": "Jok Ga A Dong Chim",
     "filter": ["Pork", "Jokbal", "Bossam"],
@@ -47,7 +57,12 @@
     "price": "$$",
     "address": ["3751 Satellite Blvd #600", "Duluth, GA 30096"],
     "phone": "(470) 299-6150",
-    "headerImage": "image/jok.jpg"
+    "headerImage": "image/jok.jpg",
+    "info": {
+      "why" : "I love this restaurant because of this reason",
+      "dish": "you should definitely try this",
+      "dishImage": "image/galbi.jpg" 
+    }
   }, {
     "name": "Sun & Moon Cafe",
     "filter": ["Small Bites", "Pub", "Spicy"],
@@ -58,7 +73,12 @@
     "price": "$$",
     "address": ["3555 Gwinnett Pl Dr NW #101", "Duluth, GA 30096"],
     "phone": "(678) 417-6755",
-    "headerImage": "image/sun.jpg"
+    "headerImage": "image/sun.jpg",
+    "info": {
+      "why" : "I love this restaurant because of this reason",
+      "dish": "you should definitely try this",
+      "dishImage": "image/galbi.jpg" 
+    }
   }, {
     "name": "Woo Nam Jeong Stone Bowl House",
     "filter": ["Seafood Pancake", "Bibimbap", "Kalbi"],
@@ -69,7 +89,12 @@
     "price": "$",
     "address": ["5953 Buford Highway Northeast", "Atlanta, GA 30340"],
     "phone": "(678) 530-0844",
-    "headerImage": "image/woo.jpg"
+    "headerImage": "image/woo.jpg",
+    "info": {
+      "why" : "I love this restaurant because of this reason",
+      "dish": "you should definitely try this",
+      "dishImage": "image/galbi.jpg" 
+    }
   }, {
     "name": "Yet Tuh",
     "filter": ["Traditional Food", "Bibimbap", "Kimchi Stew"],
@@ -80,7 +105,12 @@
     "price": "$$",
     "address": ["3042 Oakcliff Rd", "Doraville, GA 30340"],
     "phone": "(770) 454-9292",
-    "headerImage": "image/yet.jpg"
+    "headerImage": "image/yet.jpg",
+    "info": {
+      "why" : "I love this restaurant because of this reason",
+      "dish": "you should definitely try this",
+      "dishImage": "image/galbi.jpg" 
+    }
   }, {
     "name": "Miss Gogi",
     "filter": ["Korean BBQ", "All You Can Eat", "Pork Belly"],
@@ -91,7 +121,12 @@
     "price": "$$",
     "address": ["6035 Peachtree Rd Ste C115", "Atlanta, GA 30360"],
     "phone": "(770) 220-3003",
-    "headerImage": "image/miss.jpg"
+    "headerImage": "image/miss.jpg",
+    "info": {
+      "why" : "I love this restaurant because of this reason",
+      "dish": "you should definitely try this",
+      "dishImage": "image/galbi.jpg" 
+    }
   }, {
     "name": "Hae Woon Dae BBQ",
     "filter": ["Korean BBQ", "Short Ribs", "Pork Belly"],
@@ -102,7 +137,12 @@
     "price": "$$",
     "address": ["5805 Buford Hwy NE", "Doraville, GA 30340"],
     "phone": "(770) 458-6999",
-    "headerImage": "image/haewoondae.jpg"
+    "headerImage": "image/haewoondae.jpg",
+    "info": {
+      "why" : "I love this restaurant because of this reason",
+      "dish": "you should definitely try this",
+      "dishImage": "image/galbi.jpg" 
+    }
   }, {
     "name": "Hello Chicken",
     "filter": ["Korean Fried Chicken", "Short Ribs", "Pork Belly"],
@@ -113,6 +153,11 @@
     "price": "$$",
     "address": ["5295 Buford Hwy NE", "Atlanta, GA 30340"],
     "phone": "(770) 797-5153",
-    "headerImage": "image/hellochick.jpg"
+    "headerImage": "image/hellochick.jpg",
+    "info": {
+      "why" : "I love this restaurant because of this reason",
+      "dish": "you should definitely try this",
+      "dishImage": "image/galbi.jpg" 
+    }
   }]
 }
