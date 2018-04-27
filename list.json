@@ -67,8 +67,9 @@
     "headerImage": "image/jok.jpg",
     "info": {
       "why" : "This Seoul, South Korea-based chain is a great spot for those interested in a bit of adventurous dining. The restaurant is known for its jokbal—pigs feet/trotters steamed and sliced and served with banchan. The bossam (boiled pork belly in a kimchi wrap) is quite popular here, too.",
-      "dish": "you should definitely try this",
-      "dishImage": "image/galbi.jpg" 
+      "dish": "Jokbal is the main dish for this restaurant, and it literally means pork feet. It has a lot of collagen which is good for your skin. Its soft, savory, and sweet flavors go so well with lettuce wrap.",
+      "dishH": "Jokbal",
+      "dishImage": "image/jokbal.jpg" 
     }
   }, {
     "name": "Sun & Moon Cafe",
@@ -84,8 +85,9 @@
     "headerImage": "image/sun.jpg",
     "info": {
       "why" : "Another Korean pub or pocha like the aforementioned Han Shin, Sun & Moon Cafe is the place for lovers of spicy food. Order the budae jjigae—spicy, sausage stew (“army stew”) or the jukkumi bokkeum (spicy octopus).",
-      "dish": "you should definitely try this",
-      "dishImage": "image/galbi.jpg" 
+      "dish": "Jukumi Bokeum has one unique ingredient you may have not seen before: a baby octopus. Its tender texture, grilled veggies, and a spicy sauce turn this dish to be one of my favorite main dishes with a bowl of rice. It is spicy so watch out if you can't handle the cpicy flavor!",
+      "dishH": "Jukumi Bokeum (Grilled Spicy Baby Octopus)",
+      "dishImage": "image/Jukumi.jpg" 
     }
   }, {
     "name": "Woo Nam Jeong Stone Bowl House",
@@ -101,8 +103,9 @@
     "headerImage": "image/woo.jpg",
     "info": {
       "why" : "Located in Seoul Plaza on Buford Highway, Woo Nam Jeong or Stone Bowl House serves traditional Korean fare. Order the haemul pajeon (seafood scallion pancake), kalbi (barbecue beef short rib), or any bibimbap served in a cast iron stone bowl for which the restaurant is named.",
-      "dish": "you should definitely try this",
-      "dishImage": "image/galbi.jpg" 
+      "dish": "A stew filled with seafood, veggies, and spicy sauce. The stew is simply amazing and calls for drinks. ",
+      "dishH": "Haemool Jungol (Spicy Seafood Stew)",
+      "dishImage": "image/haemool.jpg" 
     }
   }, {
     "name": "Yet Tuh",
@@ -118,8 +121,9 @@
     "headerImage": "image/yet.jpg",
     "info": {
       "why" : "This Korean restaurant in Doraville is a permanent fixture on the Essential 38 list, and for good reason. Expect beautifully executed traditional dishes here such as banchan, bibimbap, and kimchi stew. Matt Kang, host of Eater’s K-Town web series, says Yet Tuh can hold its own against any Korean restaurant in America.",
-      "dish": "you should definitely try this",
-      "dishImage": "image/galbi.jpg" 
+      "dish": "This is a traditional dish and we usually call it Korean pizza. many veggies and seafood are in here and go so well with a soy dipping sauce. If you're adventurous, try it with makgeolli, a Korean alcoholic beverage made with rice.",
+      "dishH": "Seafood Pancake",
+      "dishImage": "image/seafoodpancake.jpg" 
     }
   }, {
     "name": "Miss Gogi",
@@ -135,7 +139,8 @@
     "headerImage": "image/miss.jpg",
     "info": {
       "why" : "With so many Korean barbecue restaurants around Atlanta, it can be overwhelming. Friends of Eater Atlanta tagged Miss Gogi’s as a favorite. Clean and bright with good ventilation and quality meats, order the samgyupsal—thick slices of marinated pork, grilled on a flat top, and served with banchan.",
-      "dish": "you should definitely try this",
+      "dish": "This is an All You Can Eat(AYCE) restaurant and each option has a few meat options. I particularly enjoy premium galbi since it's perfectly marinated and texture is amazing. Eat well!",
+      "dishH": "Premium Galbi",
       "dishImage": "image/galbi.jpg" 
     }
   }, {
@@ -152,8 +157,9 @@
     "headerImage": "image/haewoondae.jpg",
     "info": {
       "why" : "Just outside the perimeter on Buford Highway in Doraville, devoted regulars of this Korean barbecue restaurant swear by its charbroiled pork, short ribs, and slabs of chunky pork bacon. Don’t forget to order some dumplings and buchimgae (Korean pancakes).",
-      "dish": "you should definitely try this",
-      "dishImage": "image/galbi.jpg" 
+      "dish": "While this spot is known for galbi, their beef rib is also amaing. Amazing banchans as well. Eat a lot of beef!",
+      "dishH": "Beef Ribs",
+      "dishImage": "image/beefribs.jpg" 
     }
   }, {
     "name": "Hello Chicken",
@@ -169,8 +175,9 @@
     "headerImage": "image/hellochick.jpg",
     "info": {
       "why" : "This relatively new spot on Buford Highway is the place to order Korean fried chicken (aka KFC) in Atlanta. The double-fried, gojuchang-based (red pepper paste) sticky sauce-coated chicken might be some of the best in the city.",
-      "dish": "you should definitely try this",
-      "dishImage": "image/galbi.jpg" 
+      "dish": "Korean fried chicken is very popular, and this dish forces you to get a bit messy. This sweet and spicy sauce on the top will make you lick your fingers as you enjoy the tender chicken. If you enjoy a spicy flavor, you must try this.",
+      "dishH": "Sweet and Spicy Chicken",
+      "dishImage": "image/chicken.jpg" 
     }
   }]
 }
