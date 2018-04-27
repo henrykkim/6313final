@@ -11,19 +11,6 @@ $.ajax({
   }
 });
 
-
-// Axios
-axios.get("https://api.yelp.com/v3/businesses/WavvLdfdP6g8aZTtbBQHTw", { 
-  'headers': { 
-    'Authorization': "owtqvjlXtjhNUNdWS6G5KlF_lY2hUU4g-icS04trJ_ky8R0mHRRgZ1At9A0Tb2eTMn47p83jcHYc4v36uK7r1hKr7zyL7C1aLzg6G9JJVkNX02Ub5jPOnjrmaPrfWnYx" 
-  }})
-  .then(function (response) {
-    console.log(response);
-  })
-  .catch(function (error) {
-    console.log(error);
-  });
-
 function initMap() {
   var uluru = {
     lat: 33.945208,
@@ -44,7 +31,35 @@ function initMap() {
 
     google.maps.event.addListener(marker, 'click', (function (marker, i) {
       return function () {
-        document.getElementById("writing").innerHTML = list[i].name;
+
+        document.getElementById("headerImage").innerHTML = '<img src=' + list[i].headerImage + ' class="img-fluid centered-and-cropped">';
+        document.getElementById("writing").innerHTML =
+          "<h1>" + list[i].name + "</h1>" +
+          '<div class="row">' +
+            '<div class="col-6 pt-3">' +
+              "<h3>" + "Address" + "</h3>" +
+              "<p>" + '<a href='+list[i].gmap+'>' + list[i].address[0] + '<br>' + list[i].address[1] + '</a>'+"</p>" +
+            '</div>' +
+            '<div class="col-6 pt-3">' +
+              '<h3>Phone</h3>' +
+              '<p>' + list[i].phone + '</p>' +
+            '</div>' +
+            '<div class="col-6 pt-3">' +
+              '<h3>Price</h3>' +
+              '<p>' + list[i].price + '</p>' +
+            '</div>' +
+          '</div>'+
+          '<div class="row">' +
+            '<div class="col pt-3">' +
+            "<h3>" + "What I love about this place" + "</h3>" +
+            '<p>' + list[i].info.why + '</p>' +
+            '<h3 class="pt-3">' + "Food to Try" + "</h3>" +
+            '<img src=' + list[i].info.dishImage + ' class="img-fluid pt-2">'+
+            '<h3 class="pt-3">' + list[i].info.dishH + '</h3>' +
+            '<p>' + list[i].info.dish + '</p>' +
+            '<a class="btn btn-danger btn-lg" href=' + list[i].info.yelp + ' role="button">Chek more at Yelp</a>'+
+            '</div>'+
+          '</div>';
       };
     })(marker, i));
   };
