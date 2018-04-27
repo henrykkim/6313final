@@ -13,8 +13,9 @@
     "headerImage": "image/9292.jpg",
     "info": {
       "why" : "Jennifer Zyman, Atlanta Magazine restaurant critic and former editor of Eater Atlanta, raved about this newly-opened Korean barbecue spot last year. The restaurant uses traditional charcoal table grills rather than electric. The unmistakeable, smokey flavor the grill produces in the meats along with the quality of the meat used make all the difference. Order the Special #2 with seasoned pork, pork belly, beef short ribs, rib eye, beef bulgogi, and brisket. It comes with banchan (Korean side dishes including kimchi fried rice).",
-      "dish": "you should definitely try this",
-      "dishImage": "image/galbi.jpg" 
+      "dish": "Pork belly is the most popular meat for Korean BBQ in South Korea. While it's exactly the same part as bacon, the flavor is so much juicier and texture from its thickness is amazing. My friends who tried pork belly think bacon is overrated now. ",
+      "dishH": "Pork Belly",
+      "dishImage": "image/porkbelly.jpg" 
     }
   }, {
     "name": "Han Shin Pocha USA",
@@ -30,8 +31,9 @@
     "headerImage": "image/hanshin.jpg",
     "info": {
       "why" : "Pocha is short for pojangmacha, meaning “tented wagon” or a Korean street food vendor. Han Shin mirrors the feel of a Japanese izakaya with warm woods, rows of tables, and small dining “huts” surrounding the perimeter inside. It’s great for late nights, beer, soju, small bites, and karaoke. Try the smoked pork slices with bean sprouts or the budae jjigae (“army soup”) made with ham, sausage, baked beans, and kimchi or the spicy kimchi hot pot.",
-      "dish": "you should definitely try this",
-      "dishImage": "image/galbi.jpg" 
+      "dish": "Fishcake can be easily found on the street in South Korea for a quick snack. This, on the other hand, is a fancier version with soup. It is also a perfect food to enjoy with soju, a Korean liquor.",
+      "dishH": "Fishcake Soup",
+      "dishImage": "image/fishcakesoup.jpg" 
     }
   }, {
     "name": "Jang Su Jang",
@@ -47,8 +49,9 @@
     "headerImage": "image/jangsujang.jpg",
     "info": {
       "why" : "Jang Su Jang or “The Meeting Place” has been a beloved Korean restaurant in Duluth for over ten years. This is the spot to grab dishes with authenticity and traditional touches like kalbi (barbecue beef short rib), bibimbap, and soondubu-jjigae (tofu stew). Some say the banchan here is the best in Atlanta.",
-      "dish": "you should definitely try this",
-      "dishImage": "image/galbi.jpg" 
+      "dish": "This unique dish goes so well with rice. It's sweet, spicy, and juicy all together. Mixed with a few types of veggies, The flavor explodes as you bite. If you're not good with a spicy dish, I would not recommend this though!",
+      "dishH": "Spicy Pork Rib Stew",
+      "dishImage": "image/spicyporkribstew.jpg" 
     }
   }, {
     "name": "Jok Ga A Dong Chim",
