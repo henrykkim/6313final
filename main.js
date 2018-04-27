@@ -57,9 +57,11 @@ function initMap() {
             '<img src=' + list[i].info.dishImage + ' class="img-fluid pt-2">'+
             '<h3 class="pt-3">' + list[i].info.dishH + '</h3>' +
             '<p>' + list[i].info.dish + '</p>' +
-            '<a class="btn btn-danger btn-lg" href=' + list[i].info.yelp + ' role="button">Chek more at Yelp</a>'+
+            '<div class="pt-3 pb-5">'+
+              '<a class="btn btn-danger btn-lg" href=' + list[i].info.yelp + ' role="button">Chek more at Yelp</a>'+
             '</div>'+
-          '</div>';
+          '</div>'+
+        '</div>';
       };
     })(marker, i));
   };
