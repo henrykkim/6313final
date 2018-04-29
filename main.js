@@ -11,6 +11,7 @@ $.ajax({
   }
 });
 
+// Google Maps
 function initMap() {
   var uluru = {
     lat: 33.945208,
@@ -23,15 +24,18 @@ function initMap() {
 
   var marker, i;
 
+  // For loop for the JSON list
   for (i = 0; i < list.length; i++) {
     marker = new google.maps.Marker({
       position: new google.maps.LatLng(list[i].location.lat, list[i].location.lng),
       map: map
     });
 
+    // Creating multiple pins
     google.maps.event.addListener(marker, 'click', (function (marker, i) {
       return function () {
 
+        // Template for each restaurant information
         document.getElementById("headerImage").innerHTML = '<img src=' + list[i].headerImage + ' class="img-fluid centered-and-cropped">';
         document.getElementById("writing").innerHTML =
           "<h1>" + list[i].name + "</h1>" +
